@@ -1,0 +1,22 @@
+.service-price-data {
+	min-height: 100vh;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.service-price-data__header {
+	text-align: center;
+	margin-bottom: 70px;
+
+}
+.service-price-data__table {
+	font-size: 16px;
+	border: 1px solid #ddd;
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+.service-price-data__table table {
+	margin-bottom: 0px;
+}
