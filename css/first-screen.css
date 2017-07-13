@@ -1,5 +1,5 @@
 .first-screen {
-	height: 93vh;
+	height: 93.5vh;
 	display: block;
     position: relative;
 }
@@ -8,7 +8,7 @@
 	height: 100%;
 	width: 100%;
 	content: "";
-	/*background: url(../img/first-screen-img.jpg);*/
+	background: url(../img/first-screen-img.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 100%;

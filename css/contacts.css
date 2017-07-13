@@ -9,23 +9,21 @@
 	position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 100%;
+    width: 90%;
 }
 
 .contacts__wrapper .row {
 	width: 100%;
+	margin:0;
 }
 
 .contacts__header {
 	margin-bottom: 20px;
 }
 
-.contacts__data {
-
-}
-
-.contacts__form {
-
+.contacts__form form {
+	display: inline-block;
+	margin: auto;
 }
 
 .contacts__svg {
@@ -44,7 +42,7 @@
 }
 
 .contacts__svg-location {
-	top: 10px;
+	top: 22px;
 	left: -60px;
 }
 
@@ -66,4 +64,11 @@
 	display: block;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.contacts__button {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 40px;
 }
