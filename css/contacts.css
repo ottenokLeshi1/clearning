@@ -55,6 +55,7 @@
 
 .contacts__item {
 	position: relative;
+	display: block;
 	font-size: 18px;
 }
 

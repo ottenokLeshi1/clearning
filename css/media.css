@@ -46,14 +46,16 @@
 
 	.contacts__svg-phone {
 		top: 17px;
+		left: -45px;
 	}
 
 	.contacts__svg-email {
 		top: 5px;
+		left: -45px;
 	}
-
 	.contacts__svg-location {
 		top: 13px;
+		left: -45px;
 	}
 	.service-price-data {
 		padding-top: 0px;
