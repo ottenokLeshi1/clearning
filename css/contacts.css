@@ -1,10 +1,11 @@
 .contacts {
-	min-height: 100vh;
+	min-height: 95vh;
 }
 
 .contacts__wrapper {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	justify-content: space-around;
 	width: 100%;
 }
@@ -43,7 +44,7 @@
 .contacts__item {
 	position: relative;
 	display: block;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .contacts__item-link {
