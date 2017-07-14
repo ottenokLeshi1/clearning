@@ -1,6 +1,6 @@
 @media screen and (max-width: 993px) {
 	.main-description__svg {
-		width: 70px;
+		width: 30px;
 	}
 	
 	.main-description__text {
@@ -9,7 +9,8 @@
 	}
 
 	.main-description__header {
-		margin-bottom: 30px;
+		margin-top: 15px;
+		margin-bottom: 15px;
 	}
 
 	.main-description__row {
@@ -23,6 +24,8 @@
 	}
 	.main-description__text {
 		font-size: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
 	}
 	.contacts {
 		padding-top: 15px;
@@ -52,8 +55,16 @@
 	.contacts__svg-location {
 		top: 13px;
 	}
-	.service-price-data__table tr {
-		font-size: 15px;	
+	.service-price-data {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.service-price-data__header {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.service-price-data__table table {
+		font-size: 14px;	
 	}
 
 }
