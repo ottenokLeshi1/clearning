@@ -68,6 +68,13 @@
 	.service-price-data__table table {
 		font-size: 14px;	
 	}
+	.contacts__data {
+		width: 70%;
+	}
+
+	.contacts__form {
+		width: 70%;
+	}
 
 }
 
@@ -82,5 +89,12 @@
 	.contacts__items {
 		padding-left: 55px;
 		color: red;
+	}
+	.contacts__data {
+		width: 90%;
+	}
+
+	.contacts__form {
+		width: 90%;
 	}
 }

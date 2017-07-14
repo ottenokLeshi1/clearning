@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#416E87">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/first-screen.css">
@@ -13,12 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="css/service-price-data.css">
 	<link rel="stylesheet" type="text/css" href="css/contacts.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
 </head>
 <body>
-	<div id="fullpage">
-		<header class="section">
-			<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
 			  <div class="container-fluid">
 			  	<div class="container">
 					<div class="row">
@@ -30,33 +28,35 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					      </button>
-					      <a class="navbar-brand" href="#">GR style</a>
+					      <a class="navbar-brand" href="#firstPage">GR style</a>
 					    </div>
 
 					    <!-- Collect the nav links, forms, and other content for toggling -->
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					      <ul class="nav navbar-nav navbar-right">
-					        <li class="active"><a href="#main-description">O нас<span class="sr-only">(current)</span></a></li>
-					        <li><a href="#service-price-data">Услуги / Цены</a></li>
-					        <li><a href="#contacts">Контакты</a></li>
+					      <ul class="nav navbar-nav navbar-right" id="myMenu">
+					        <li class="active" data-menuanchor="secondPage"><a href="#secondPage">O нас<span class="sr-only">(current)</span></a></li>
+					        <li data-menuanchor="thirdPage"><a href="#thirdPage">Услуги / Цены</a></li>
+					        <li data-menuanchor="fourthPage"><a href="#fourthPage">Контакты</a></li>
 					      </ul>
 					    </div><!-- /.navbar-collapse -->
 				    </div>
 				</div>
 			  </div><!-- /.container-fluid -->
 			</nav>
+	<div id="fullpage">
+		<header class="section" id="firstPage">
 			<div class="container-fluid first-screen">
 				<div class="container">
 					<div class="row">
 						<div class="main-header">
 							<h1>Химчистка ковровых покрытий и мягкой мебели</h1>
 						</div>
-						<button type="button"  onclick="location.href='#contacts'" class="main-header__button btn btn-primary">Оставить заказ</button>
+						<button type="button"  onclick="location.href='#fourthPage'" class="main-header__button btn btn-primary">Оставить заказ</button>
 					</div>
 				</div>
 			</div>
 		</header>
-		<div class="section main-description container" id="main-description">
+		<div class="section main-description container" id="secondPage">
 			<div class="row main-description__row">
 				<h2 class="main-description__header">О нас</h2>
 				<div>
@@ -84,7 +84,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section container service-price-data" id="service-price-data">
+		<div class="section container service-price-data" id="thirdPage">
 			<div class="row">
 				<div>
 					<h2 class="service-price-data__header">Прайс-лист на услуги</h2>
@@ -145,47 +145,53 @@
 				</div>
 			</div>	
 		</div>
-		<div class="section container contacts" id="contacts">
-			<div class="contacts__wrapper">
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-4 contacts__data">
-							<h3 class="contacts__header">Контакты</h3>
-							<ul class="contacts__items">
-								<li class="contacts__item">
-									<object class="contacts__svg contacts__svg-phone" type="image/svg+xml" data="img/phone.svg"></object>
-									<a class="contacts__item-link" href="tel:+74959605771">+7-(495)-960-57-71</a>
-								</li>
-								<li class="contacts__item">
-									<a class="contacts__item-link" href="tel:+79268165109">+7-(926)-681-51-09</a>
-								</li>
-								<li class="contacts__item">
-									<object class="contacts__svg contacts__svg-email" type="image/svg+xml" data="img/email.svg"></object>
-									<a class="contacts__item-link" href="mailto:romanova@gr-style.ru">romanova@gr-style.ru</a>
-								</li>
-								<li class="contacts__item">
-									<object class="contacts__svg contacts__svg-location" type="image/svg+xml" data="img/location.svg"></object>
-									<a class="contacts__item-link" href="">Нахимовский проспект д. 24<br>Dekor Expo, 1 этаж, павильон E-15</a>
-								</li>
-							</ul>
+		<div class="section container contacts" id="fourthPage">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 contacts__wrapper">
+						
+
+
+						<div class="col-md-4 contacts__data">
+								<h3 class="contacts__header">Контакты</h3>
+								<ul class="contacts__items">
+									<li class="contacts__item">
+										<object class="contacts__svg contacts__svg-phone" type="image/svg+xml" data="img/phone.svg"></object>
+										<a class="contacts__item-link" href="tel:+74959605771">+7-(495)-960-57-71</a>
+									</li>
+									<li class="contacts__item">
+										<a class="contacts__item-link" href="tel:+79268165109">+7-(926)-681-51-09</a>
+									</li>
+									<li class="contacts__item">
+										<object class="contacts__svg contacts__svg-email" type="image/svg+xml" data="img/email.svg"></object>
+										<a class="contacts__item-link" href="mailto:romanova@gr-style.ru">romanova@gr-style.ru</a>
+									</li>
+									<li class="contacts__item">
+										<object class="contacts__svg contacts__svg-location" type="image/svg+xml" data="img/location.svg"></object>
+										<a class="contacts__item-link" href="">Нахимовский проспект д. 24<br>Dekor Expo, 1 этаж, павильон E-15</a>
+									</li>
+								</ul>
+						</div>
+						<div class="col-md-4 contacts__form">
+							<form class="col-md-12">
+								<h3 class="contacts__header">Обратная связь</h3>
+								<div class="form-group row">
+									<label for="inputEmail">Ваш e-mail:</label>
+									<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+								</div>
+								<div class="form-group row">
+								  <label for="comment">Опишите, что нужно почистить:</label>
+								  <textarea class="form-control"  id="comment"></textarea>
+								</div>
+								<div class="form-group row">
+									<button type="button" class="contacts__button btn btn-primary">Оставить заказ</button>
+								</div>
+							</form>
+						</div>
+
+
+
+
 					</div>
-					<div class="col-md-6 contacts__form">
-						<form class="col-md-12 col-xs-12">
-											<h3 class="contacts__header">Обратная связь</h3>
-							<div class="form-group row">
-								<label for="inputEmail">Ваш e-mail:</label>
-								<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-							</div>
-							<div class="form-group row">
-							  <label for="comment">Опишите, что нужно почистить:</label>
-							  <textarea class="form-control"  id="comment"></textarea>
-							</div>
-							<div class="form-group row">
-								<button type="button" class="contacts__button btn btn-primary">Оставить заказ</button>
-							</div>
-						</form>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
