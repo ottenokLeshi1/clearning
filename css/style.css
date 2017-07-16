@@ -1,4 +1,5 @@
 body { 
+	font-size: 14px;
 	margin-top: 50px; 
 }
 
@@ -9,4 +10,10 @@ body {
 .form-group {
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+	.fp-tableCell {
+	    padding-top: 50px;
+	}
 }

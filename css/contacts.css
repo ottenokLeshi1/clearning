@@ -1,5 +1,5 @@
 .contacts {
-	min-height: 95vh;
+	min-height: 100vh;
 }
 
 .contacts__wrapper {
@@ -15,23 +15,10 @@
 }
 
 .contacts__svg {
+	top: 15px;
+	left: -60px;
 	width: 30px;
 	position: absolute;
-}
-
-.contacts__svg-phone {
-	top: 31px;
-    left: -60px;
-}
-
-.contacts__svg-email {
-	top: 10px;
-	left: -60px;
-}
-
-.contacts__svg-location {
-	top: 22px;
-	left: -60px;
 }
 
 .contacts__items {
@@ -44,7 +31,6 @@
 .contacts__item {
 	position: relative;
 	display: block;
-	font-size: 16px;
 }
 
 .contacts__item-link {
@@ -60,4 +46,46 @@
 	margin: auto;
 	width: 200px;
 	height: 40px;
+}
+
+
+@media screen and (max-width: 993px) {
+	.contacts__header {
+		font-size: 1.3em;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	.contacts__item-link {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	.contacts__svg {
+		width: 1.5em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.contacts__item {
+		font-size: 1em;
+	}
+	.contacts__item-link {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	.contacts__items {
+		padding-left: 2em;
+	}
+	.contacts__svg {
+		width: 1.5em;
+		top: 7px;
+		left: -2em;
+	}
+	.form-group {
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    margin-bottom: 10px;
+	}
+	.contacts__form {
+		margin-top: 1em;
+	}
 }

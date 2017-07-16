@@ -1,3 +1,5 @@
+//require('../css/first-screen.css');
+
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
