@@ -180,16 +180,21 @@
 	      <div class="modal-body">
 	        <div class="contacts__form">
 				<form class="col-md-12" method="POST" action="https://formspree.io/ottenok.belogo@gmail.com">
-					<label for="_replyto">Ваш e-mail:</label>
 					<input type="email" name="_replyto" class="form-control" id="_replyto" aria-describedby="emailHelp" placeholder="Ваш e-mail">
-					<label for="comment">Опишите, что нужно почистить:</label>
 					<textarea type="text" class="form-control" name="message" id="comment"></textarea>
 					<input type="submit" class="contacts__button btn btn-primary" value="Оставить заказ">
+				</form>
+
+				<form method="POST" action="http://formspree.io/ottenok.belogo@gmail.com">
+					<label for="_replyto">Ваш e-mail:</label>
+					<input type="email" name="email" placeholder="Your email">
+					<label for="comment">Опишите, что нужно почистить:</label>
+					<textarea name="message" placeholder="Your message"></textarea>
+					<button type="submit">Send</button>
 				</form>
 			</div>
 	      </div>
 	      <div class="modal-footer">
-	     
 	      </div>
 	    </div>
 	  </div>
