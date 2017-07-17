@@ -164,13 +164,6 @@
 						<button type="button" class="contacts__button btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
 						  Оставить контакты
 						</button>
-						<br>
-						<br>
-						<form method="POST" action="https://formspree.io/ottenok.belogo@gmail.com">
-						    <input type="text" name="name">
-						    <input type="email" name="_replyto">
-						    <input type="submit" value="Send">
-						</form>
 					</div>
 				</div>
 			</div>
@@ -187,17 +180,11 @@
 	      <div class="modal-body">
 	        <div class="contacts__form">
 				<form class="col-md-12" method="POST" action="http://formspree.io/ottenok.belogo@gmail.com">
-					<div class="form-group row">
-						<label for="_replyto">Ваш e-mail:</label>
-						<input type="email" name="_replyto" class="form-control" id="_replyto" aria-describedby="emailHelp" placeholder="Ваш e-mail">
-					</div>
-					<div class="form-group row">
-					  <label for="comment">Опишите, что нужно почистить:</label>
-					  <textarea class="form-control" name="message" id="comment"></textarea>
-					</div>
-					<div class="form-group row">
-						<button type="submit" class="contacts__button btn btn-primary">Оставить заказ</button>
-					</div>
+					<label for="_replyto">Ваш e-mail:</label>
+					<input type="email" name="_replyto" class="form-control" id="_replyto" aria-describedby="emailHelp" placeholder="Ваш e-mail">
+					<label for="comment">Опишите, что нужно почистить:</label>
+					<textarea class="form-control" name="message" id="comment"></textarea>
+					<button type="submit" class="contacts__button btn btn-primary">Оставить заказ</button>
 				</form>
 			</div>
 	      </div>
