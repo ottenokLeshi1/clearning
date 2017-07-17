@@ -12,6 +12,10 @@ body {
 	padding-bottom: 10px;
 }
 
+.modal {
+
+}
+
 @media screen and (max-width: 480px) {
 	.fp-tableCell {
 	    padding-top: 50px;

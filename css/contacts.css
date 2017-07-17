@@ -12,6 +12,7 @@
 
 .contacts__header {
 	margin-bottom: 20px;
+
 }
 
 .contacts__svg {
@@ -51,7 +52,7 @@
 
 @media screen and (max-width: 993px) {
 	.contacts__header {
-		font-size: 1.3em;
+		font-size: 1.1em;
 		margin-bottom: 5px;
 		margin-top: 5px;
 	}
@@ -66,11 +67,11 @@
 
 @media screen and (max-width: 480px) {
 	.contacts__item {
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 	.contacts__item-link {
-		padding-top: 7px;
-		padding-bottom: 7px;
+		padding-top: 0.4em;
+		padding-bottom: 0.4em;
 	}
 	.contacts__items {
 		padding-left: 2em;

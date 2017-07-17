@@ -21,14 +21,14 @@
 }
 
 .main-description__svg {
-	width: 50px;
+	width: 0em;
 	display: block;
 	margin: auto;
 }
 
 .main-description__text {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -48,8 +48,15 @@
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
+	.table>tbody>tr>td, 
+	.table>tbody>tr>th, 
+	.table>tfoot>tr>td, 
+	.table>tfoot>tr>th, 
+	.table>thead>tr>td, 
+	.table>thead>tr>th {
+    	padding: 0.4em;
+    }
 }
-
 @media screen and (max-width: 480px) {
 	.main-description__header {
 		margin-bottom: 5px;
@@ -60,6 +67,6 @@
 	}
 
 	.main-description__text {
-		font-size: 1em;
+		font-size: 0.7em;
 	}
 }
