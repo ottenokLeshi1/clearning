@@ -164,6 +164,11 @@
 						<button type="button" class="contacts__button btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
 						  Оставить контакты
 						</button>
+						<form action="https://formspree.io/ottenok.belogo@gmail.com">
+						    <input type="text" name="name">
+						    <input type="email" name="_replyto">
+						    <input type="submit" value="Send">
+						</form>
 					</div>
 				</div>
 			</div>
@@ -181,8 +186,8 @@
 	        <div class="contacts__form">
 				<form class="col-md-12" method="POST" action="http://formspree.io/ottenok.belogo@gmail.com">
 					<div class="form-group row">
-						<label for="inputEmail">Ваш e-mail:</label>
-						<input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Ваш e-mail">
+						<label for="_replyto">Ваш e-mail:</label>
+						<input type="email" name="email" class="form-control" id="_replyto" aria-describedby="emailHelp" placeholder="Ваш e-mail">
 					</div>
 					<div class="form-group row">
 					  <label for="comment">Опишите, что нужно почистить:</label>
@@ -193,8 +198,6 @@
 					</div>
 				</form>
 			</div>
-	      </div>
-	      <div class="modal-footer">
 	      </div>
 	    </div>
 	  </div>
