@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 480px) {
 	.service-price-data__header {
-		font-size: 1em;
+		font-size: 1.1em;
 		margin-bottom: 5px;
 		margin-top: 5px;
 	}

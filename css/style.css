@@ -1,3 +1,7 @@
+@import '~normalize.css/normalize.css';
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~fullpage.js/dist/jquery.fullpage.css';
+
 body { 
 	font-size: 14px;
 	margin-top: 50px; 
@@ -12,8 +16,8 @@ body {
 	padding-bottom: 10px;
 }
 
-.modal {
-
+.modal-footer {
+    border-top: none;
 }
 
 @media screen and (max-width: 480px) {

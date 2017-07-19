@@ -1,5 +1,5 @@
 .main-description {
-	min-height: 100h;
+	min-height: 100vh;
 }
 
 .main-description__row {
@@ -59,9 +59,9 @@
 }
 @media screen and (max-width: 480px) {
 	.main-description__header {
+		font-size: 1.1em;
 		margin-bottom: 5px;
 	}
-
 	.main-description__svg{
 		width: 2.5em;
 	}

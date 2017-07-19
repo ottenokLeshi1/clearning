@@ -5,14 +5,16 @@
 .contacts__wrapper {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: stretch;
+	align-content: stretch;
 	justify-content: space-around;
 	width: 100%;
 }
 
 .contacts__header {
+	font-size: 1.2em;
 	margin-bottom: 20px;
-
+	text-align: center;
 }
 
 .contacts__svg {
@@ -24,7 +26,7 @@
 
 .contacts__items {
 	margin-bottom: 0;
-	padding-left: 80px;
+	padding-left: 30px;
 	list-style-type: none;
 
 }
@@ -43,18 +45,19 @@
 }
 
 .contacts__button {
+	font-size: 1em;
+	padding-top: 5px;
 	display: block;
 	margin: auto;
 	width: 200px;
-	height: 40px;
+	height: 2.5em;
 }
-
 
 @media screen and (max-width: 993px) {
 	.contacts__header {
-		font-size: 1.1em;
-		margin-bottom: 5px;
-		margin-top: 5px;
+		font-size: 1.3em;
+		margin-bottom: 10px;
+		margin-top: 10px;
 	}
 	.contacts__item-link {
 		padding-top: 7px;
@@ -88,5 +91,8 @@
 	}
 	.contacts__form {
 		margin-top: 1em;
+	}
+	.contacts__header {
+		font-size: 1.1em;
 	}
 }
