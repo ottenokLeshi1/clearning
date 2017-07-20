@@ -57,10 +57,11 @@ s.contacts {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-.contacts__item-link:hover {
-	background-color: #e74c3c;
+.contacts__item-link:hover,
+.contacts__item-link:active {
+	background-color: #03A678;
 	border-radius: 5px;
-	color: #FFF;
+	color: #bdc3c7;
 	text-decoration:none;
 }
 .contacts__button {

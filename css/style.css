@@ -3,6 +3,7 @@
 @import '~fullpage.js/dist/jquery.fullpage.css';
 
 body { 
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	margin-top: 50px; 
 }
