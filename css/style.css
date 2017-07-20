@@ -1,21 +1,43 @@
 @import '~normalize.css/normalize.css';
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~fullpage.js/dist/jquery.fullpage.css';
+@import '~animate.css';
 
 body { 
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 14px;
 	margin-top: 50px; 
 }
 
-.navbar {
+#fullpage {
+	max-width: 960px;
+	margin:auto;
+}
+
+.fp-viewing-firstPage {
+	background-color: #F1A9A0;
+}
+
+.fp-viewing-secondPage {
+	background-color: #E4F1FE;
+}
+
+.fp-viewing-thirdPage {
+	background-color: #87D37C;
+}
+
+.fp-viewing-fourthPage {
+	background-color: #F4B350;
+}
+
+.navbar{
 	margin-bottom: 0;
 }
+
 
 .navbar-default {
 	background-color: transparent;
 	border:none;
-    /* border-color: #e7e7e7; */
 }
 
 .form-group {
@@ -41,4 +63,9 @@ body {
 	.fp-tableCell {
 	    padding-top: 50px;
 	}
+}
+
+.red {
+	background-color: red;
+
 }

@@ -1,4 +1,4 @@
-s.contacts {
+.contacts {
 	min-height: 100vh;
 }
 
@@ -59,8 +59,8 @@ s.contacts {
 }
 .contacts__item-link:hover,
 .contacts__item-link:active {
-	background-color: #03A678;
-	border-radius: 5px;
+	background-color: #2ecc71;
+	border-radius: 2px;
 	color: #bdc3c7;
 	text-decoration:none;
 }
@@ -68,7 +68,7 @@ s.contacts {
 	font-size: 1em;
 	display: block;
 	margin: auto;
-	width: 200px;
+	min-width: 200px;
 	height: 3.5em;
 	margin-top: 15px;
 }

@@ -9912,6 +9912,7 @@ __webpack_require__(19);
 __webpack_require__(20);
 
 $(document).ready(function () {
+
 	$('#fullpage').fullpage({
 		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
 		menu: '#myMenu'

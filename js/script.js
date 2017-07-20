@@ -7,6 +7,7 @@ require('../css/service-price-data.css');
 require('../css/contacts.css');
 
 $(document).ready(function() {
+
 	$('#fullpage').fullpage({
 		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
 		menu: '#myMenu'
