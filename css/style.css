@@ -9,13 +9,8 @@ body {
 	margin-top: 50px; 
 }
 
-#fullpage {
-	max-width: 960px;
-	margin:auto;
-}
-
 .fp-viewing-firstPage {
-	background-color: #F1A9A0;
+	background-color: #E9D460;
 }
 
 .fp-viewing-secondPage {

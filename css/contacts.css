@@ -1,5 +1,7 @@
 .contacts {
 	min-height: 100vh;
+	max-width: 960px;
+	margin:auto;
 }
 
 .contacts__wrapper {
@@ -59,9 +61,7 @@
 }
 .contacts__item-link:hover,
 .contacts__item-link:active {
-	background-color: #2ecc71;
 	border-radius: 2px;
-	color: #bdc3c7;
 	text-decoration:none;
 }
 .contacts__button {
