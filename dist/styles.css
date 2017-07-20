@@ -4091,7 +4091,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 100%;
-	opacity: 0.3;
+	opacity: 0.2;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -4229,11 +4229,25 @@ body {
 }
 .service-price-data__table {
 	font-size: 1em;
-	border: 1px solid #ddd;
+	border: 1px solid #000;
 	display: block;
 	max-width: 960px;
 	margin: auto;
 	width: 90%;
+}
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+    border-top: 1px solid #000;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #000;
 }
 
 .service-price-data__table table {
